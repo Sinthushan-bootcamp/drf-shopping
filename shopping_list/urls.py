@@ -9,4 +9,5 @@ router.register("shopping-items", ShoppingItemViewSet, basename="shopping-items"
 
 urlpatterns = [
     path("api/", include(router.urls)),
+    
 ]
